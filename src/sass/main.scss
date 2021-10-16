@@ -1,0 +1,147 @@
+.pagination {
+  margin-top: 15px;
+  padding: 0 32px;
+  button {
+    outline: none;
+    padding: 10px 16px;
+    appearance: none;
+    border: 2px solid #519d9e;
+    background: #519d9e;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+}
+.top-route-buttons {
+  position: absolute;
+  left: 42%;
+  margin-top: 20px;
+
+  button {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 30px;
+    color: #fff;
+    margin-right: 10px;
+    background: rgb(84, 146, 84);
+    border: none;
+  }
+}
+/*********************************
+  Header
+  *********************************/
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 90px;
+  background-color: #455060;
+}
+.page-heading {
+  text-decoration: underline;
+  padding-top: 10px;
+  font-size: 45px;
+  color: #ffff;
+  text-align: center;
+}
+/*********************************
+  Books
+  *********************************/
+
+.books-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  margin-left: 55px;
+}
+
+.book {
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 46%;
+  color: #333;
+  flex-basis: width;
+  background-color: rgb(165, 230, 230);
+  h4 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    opacity: 0.7;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .details {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+}
+/*********************************
+  Media Query
+  *********************************/
+  @media (max-width: 1310px) {
+    .books-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    margin-left: 15px;
+  }
+  .top-route-buttons {
+    position: absolute;
+    left: 36%;
+    margin-top: 20px;
+  
+    button {
+      width: 150px;
+      border-radius: 10px;
+      font-size: 18px;
+      height: 30px;
+      color: #fff;
+      margin-right: 10px;
+      background: rgb(84, 146, 84);
+      border: none;
+    }
+  }}
+  @media (max-width: 1265px) {
+    .book {
+      background: #fff;
+      position: relative;
+      border-radius: 5px;
+      padding: 15px;
+      margin: 10px;
+      width: 94%;
+      color: #333;
+      flex-basis: width;
+      background-color: rgb(165, 230, 230);
+      h4 {
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 1rem;
+        opacity: 0.7;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+      }
+      .details {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+    }
+  }
